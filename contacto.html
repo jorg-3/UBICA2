@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - UBICA-2</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            text-align: center;
+            color: #333;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        #contact {
+            padding: 10px 20px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        input, textarea, button {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <p>Déjanos tus datos y únete a la revolución del turismo inteligente.</p>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un equipo apasionado por la innovación y el turismo inteligente. Nuestra misión es revolucionar la forma en que exploramos el mundo.</p>
+    </section>
+    
+    <section id="contact">
+        <form>
+            <input type="text" placeholder="Tu Nombre" required>
+            <input type="email" placeholder="Tu Email" required>
+            <textarea placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <h3>Nuestra Ubicación</h3>
+        <p>Facultad de Ciencias, Plaza de los Caídos s/n</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.962439780621!2d-5.675183484611445!3d40.96009987930388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3f3f50a1d0414b%3A0xc6d1e83e6d801a71!2sFacultad%20de%20Ciencias%2C%20Plaza%20de%20los%20Ca%C3%ADdos%2C%20Salamanca!5e0!3m2!1ses!2ses!4v1648250707492!5m2!1ses!2ses"></iframe>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 UBICA-2. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
